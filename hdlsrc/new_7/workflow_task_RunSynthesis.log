@@ -1,0 +1,398 @@
+Task "Run Synthesis" successful.
+Generated logfile: 
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source new_7_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2023.1 project hdl_prj\vivado_prj\new_7_vivado.xpr
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 465.867 ; gain = 186.238
+### Running Synthesis in Xilinx Vivado 2023.1 ...
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Jun 16 13:34:53 2025] Launched synth_1...
+Run output will be captured here: C:/my pc/desktop/matlab/exp7_io/hdl_prj/vivado_prj/new_7_vivado.runs/synth_1/runme.log
+[Mon Jun 16 13:34:53 2025] Waiting for synth_1 to finish...
+
+ECHO is off.
+ECHO is off.
+
+*** Running vivado
+    with args -log new_7.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source new_7.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source new_7.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 444.141 ; gain = 163.973
+Command: synth_design -top new_7 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12656
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1955.398 ; gain = 345.336
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'new_7' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/new_7.v:42]
+INFO: [Synth 8-6157] synthesizing module 'enable' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/enable.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'enable' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/enable.v:22]
+INFO: [Synth 8-6157] synthesizing module 'enable2' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/enable2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'enable2' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/enable2.v:22]
+INFO: [Synth 8-6157] synthesizing module 'main_module_new' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/main_module_new.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Chart' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Chart.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Chart' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Chart.v:22]
+INFO: [Synth 8-6157] synthesizing module 'SinglePortRAM_generic' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/SinglePortRAM_generic.v:22]
+	Parameter AddrWidth bound to: 8 - type: integer 
+	Parameter DataWidth bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SinglePortRAM_generic' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/SinglePortRAM_generic.v:22]
+INFO: [Synth 8-6157] synthesizing module 'FIR_system_new' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/FIR_system_new.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Subsystem' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Subsystem.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Subsystem' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Subsystem.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'FIR_system_new' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/FIR_system_new.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Chart1' [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Chart1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Chart1' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Chart1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'main_module_new' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/main_module_new.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'new_7' (0#1) [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/new_7.v:42]
+WARNING: [Synth 8-6014] Unused sequential element we2_reg_reg was removed.  [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/Chart1.v:78]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2066.910 ; gain = 456.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2066.910 ; gain = 456.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2066.910 ; gain = 456.848
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2066.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/clock_constraint.xdc]
+Finished Parsing XDC File [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/clock_constraint.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2151.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2152.051 ; gain = 0.734
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2152.051 ; gain = 541.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2152.051 ; gain = 541.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2152.051 ; gain = 541.988
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'is_enable_reg' in module 'enable'
+INFO: [Synth 8-802] inferred FSM for state register 'is_enable2_reg' in module 'enable2'
+INFO: [Synth 8-802] inferred FSM for state register 'is_Chart_reg' in module 'Chart'
+INFO: [Synth 8-802] inferred FSM for state register 'is_Chart1_reg' in module 'Chart1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               10
+*
+state_type_is_enable_IN_S0 |                               01 |                               00
+state_type_is_enable_IN_nop4 |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'is_enable_reg' using encoding 'sequential' in module 'enable'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+state_type_is_enable2_IN_nop11 |                               00 |                               00
+                 iSTATE0 |                               01 |                               10
+*
+state_type_is_enable2_IN_nop22 |                               10 |                               01
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'is_enable2_reg' using encoding 'sequential' in module 'enable2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+state_type_is_Chart_IN_nop |                               00 |                               00
+                 iSTATE0 |                               01 |                               10
+*
+state_type_is_Chart_IN_nop2 |                               10 |                               01
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'is_Chart_reg' using encoding 'sequential' in module 'Chart'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "SinglePortRAM_generic:/ram_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+state_type_is_Chart1_IN_nop1 |                               00 |                               00
+state_type_is_Chart1_IN_nop21 |                               01 |                               01
+                  iSTATE |                               10 |                               11
+*
+state_type_is_Chart1_IN_nop3 |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'is_Chart1_reg' using encoding 'sequential' in module 'Chart1'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2152.051 ; gain = 541.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 4     
+	   2 Input    9 Bit       Adders := 17    
+	   2 Input    8 Bit       Adders := 22    
+	   3 Input    8 Bit       Adders := 14    
++---Registers : 
+	               16 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 10    
+	                8 Bit    Registers := 90    
+	                1 Bit    Registers := 4     
++---RAMs : 
+	               4K Bit	(256 X 16 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 18    
+	   3 Input    8 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 20    
+	   3 Input    1 Bit        Muxes := 8     
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+RAM ("new_7/u_main_module_new/u_Single_Port_RAM/ram_reg") is too shallow (depth = 256) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "new_7/u_main_module_new/u_Single_Port_RAM/ram_reg"
+RAM ("new_7/u_main_module_new/u_Single_Port_RAM1/ram_reg") is too shallow (depth = 256) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "new_7/u_main_module_new/u_Single_Port_RAM1/ram_reg"
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2152.051 ; gain = 541.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|new_7       | u_main_module_new/u_Single_Port_RAM/ram_reg  | 256 x 16(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 1      | 0      | 1               | 
+|new_7       | u_main_module_new/u_Single_Port_RAM1/ram_reg | 256 x 16(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 1      | 0      | 1               | 
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2637.117 ; gain = 1027.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5584] The signal "new_7/u_main_module_new/u_Single_Port_RAM/ram_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2639.750 ; gain = 1029.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|new_7       | u_main_module_new/u_Single_Port_RAM1/ram_reg | 256 x 16(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 1      | 0      | 1               | 
++------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+
+Distributed RAM: Final Mapping Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance u_main_module_new/u_Single_Port_RAM1/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2659.293 ; gain = 1049.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY8    |    38|
+|2     |LUT1      |     8|
+|3     |LUT2      |   221|
+|4     |LUT3      |    93|
+|5     |LUT4      |    46|
+|6     |LUT5      |    82|
+|7     |LUT6      |   136|
+|8     |RAM256X1S |    16|
+|9     |RAMB18E2  |     1|
+|10    |FDRE      |   460|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 2674.129 ; gain = 978.926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2674.129 ; gain = 1064.066
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2686.148 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2711.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 16 instances
+
+Synth Design complete | Checksum: e68ff65d
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2711.891 ; gain = 2267.750
+INFO: [Common 17-1381] The checkpoint 'C:/my pc/desktop/matlab/exp7_io/hdl_prj/vivado_prj/new_7_vivado.runs/synth_1/new_7.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file new_7_utilization_synth.rpt -pb new_7_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 16 13:35:51 2025...
+[Mon Jun 16 13:35:53 2025] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:01:01 . Memory (MB): peak = 468.879 ; gain = 0.000
+### Synthesis Complete.
+### Running PostMapTiming in Xilinx Vivado 2023.1 ...
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xczu7ev-ffvc1156-2-e
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1612.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/clock_constraint.xdc]
+Finished Parsing XDC File [C:/my pc/desktop/matlab/exp7_io/hdl_prj/hdlsrc/new_7/clock_constraint.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1706.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 16 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1706.031 ; gain = 1237.152
+WARNING: [Common 17-708] report_timing_summary: The '-name' option will be ignored because it is only relevant in GUI mode.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3566.961 ; gain = 1860.930
+### PostMapTiming Complete.
+### Close Xilinx Vivado 2023.1 project.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 16 13:36:33 2025...
+
+Elapsed time is 114.1901 seconds.

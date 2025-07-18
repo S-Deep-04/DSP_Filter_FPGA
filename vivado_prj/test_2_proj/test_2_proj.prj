@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="test_2_proj" location="C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2_proj" platform="C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/test_2.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="test_2_proj_system" sysConfig="test_2" runtime="C/C++" cpu="standalone_domain" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="45127dfc13867b889814a9f8f5f9ca5d">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.955348758">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1508169154" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jun 23 13:10:51 2025
+# Process ID: 20500
+# Current directory: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9692 C:\my pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\new_7_vivado.xpr
+# Log file: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/vivado.log
+# Journal file: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj\vivado.jou
+# Running On: LAPTOP-TCIG5LLE, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 16477 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.xpr}
+update_compile_order -fileset sources_1
+update_module_reference design_1_new_7_0_1
+launch_simulation
+open_wave_config {C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_behav.wcfg}
+source new_7.tcl
+add_force {/new_7/clk_enable} -radix bin {1 0ns}
+add_force {/new_7/clk} -radix bin {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/new_7/reset_x} -radix bin {1 0ns} {0 4000000ps} -repeat_every 8000000ps
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/design_1_wrapper.xsa}
+open_run synth_1 -name synth_1
+current_design impl_1
+report_drc -name drc_1 -ruledecks {default}
+close_sim

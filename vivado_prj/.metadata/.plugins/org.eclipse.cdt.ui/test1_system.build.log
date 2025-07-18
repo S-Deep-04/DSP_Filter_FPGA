@@ -1,0 +1,14 @@
+15:11:13 **** Build of configuration Debug for project test1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 64164 C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm standalone_domain C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test1_system/Debug/system.bif
+ECHO is off.
+ECHO is off.
+sdcard_gen --xpfm C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm --sys_config test --bif C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test1_system/Debug/system.bif --bitstream C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test1/_ide/bitstream/design_1_wrapper.bit --elf C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test1/Debug/test1.elf,psu_cortexa53_0
+ECHO is off.
+ECHO is off.
+ELF does not exist: C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test1/Debug/test1.elf
+make: *** [makefile:37: package] Error 1
+
+15:11:16 Build Finished (took 3s.341ms)
+

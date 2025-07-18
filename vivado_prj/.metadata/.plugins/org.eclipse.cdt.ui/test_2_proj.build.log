@@ -1,0 +1,21 @@
+17:06:34 **** Build of configuration Debug for project test_2_proj ****
+make all 
+'Building file: ../src/code.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/code.o" -IC:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/sw/test_2/standalone_domain/bspinclude/include -MMD -MP -MF"src/code.d" -MT"src/code.o" -o "src/code.o" "../src/code.c"
+'Finished building: ../src/code.c'
+' '
+'Building target: test_2_proj.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/sw/test_2/standalone_domain/bsplib/lib -o "test_2_proj.elf"  ./src/code.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_2_proj.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size test_2_proj.elf  |tee "test_2_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34789	   2208	  20787	  57784	   e1b8	test_2_proj.elf
+'Finished building: test_2_proj.elf.size'
+' '
+
+17:06:35 Build Finished (took 939ms)
+

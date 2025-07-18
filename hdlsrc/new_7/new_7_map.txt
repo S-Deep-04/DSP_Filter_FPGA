@@ -1,0 +1,9 @@
+new_7/main _module_new/FIR_system_new/Subsystem --> Subsystem
+new_7/main _module_new/FIR_system_new --> FIR_system_new
+new_7/main _module_new/Chart --> Chart
+new_7/main _module_new/Chart1 --> Chart1
+new_7/main _module_new/SinglePortRAM_generic --> SinglePortRAM_generic
+new_7/main _module_new --> main_module_new
+new_7/enable --> enable
+new_7/enable2 --> enable2
+new_7 --> new_7

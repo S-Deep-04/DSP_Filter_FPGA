@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jun 17 18:13:11 2025
+# Process ID: 12188
+# Current directory: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1
+# Command line: vivado.exe -log design_1_axi_bram_ctrl_3_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_bram_ctrl_3_1.tcl
+# Log file: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1.vds
+# Journal file: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1\vivado.jou
+# Running On: LAPTOP-TCIG5LLE, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 16477 MB
+#-----------------------------------------------------------
+source design_1_axi_bram_ctrl_3_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 445.398 ; gain = 165.316
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_bram_ctrl_3_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry b14590c0da9cac60 to dir: C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.cache/ip/2023.1/b/1/b14590c0da9cac60/design_1_axi_bram_ctrl_0_2.dcp to C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.cache/ip/2023.1/b/1/b14590c0da9cac60/design_1_axi_bram_ctrl_0_2_sim_netlist.v to C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.cache/ip/2023.1/b/1/b14590c0da9cac60/design_1_axi_bram_ctrl_0_2_sim_netlist.vhdl to C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.cache/ip/2023.1/b/1/b14590c0da9cac60/design_1_axi_bram_ctrl_0_2_stub.v to C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.cache/ip/2023.1/b/1/b14590c0da9cac60/design_1_axi_bram_ctrl_0_2_stub.vhdl to C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/new_7_vivado.runs/design_1_axi_bram_ctrl_3_1_synth_1/design_1_axi_bram_ctrl_3_1_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_bram_ctrl_3_1, cache-ID = b14590c0da9cac60.
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 17 18:13:24 2025...

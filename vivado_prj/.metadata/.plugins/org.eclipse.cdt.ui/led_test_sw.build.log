@@ -1,0 +1,21 @@
+19:50:52 **** Incremental Build of configuration Debug for project led_test_sw ****
+make all 
+'Building file: ../src/led_sw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_sw.o" -IC:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/standalone_domain/bspinclude/include -MMD -MP -MF"src/led_sw.d" -MT"src/led_sw.o" -o "src/led_sw.o" "../src/led_sw.c"
+'Finished building: ../src/led_sw.c'
+' '
+'Building target: led_test_sw.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/standalone_domain/bsplib/lib -o "led_test_sw.elf"  ./src/led_sw.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_test_sw.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size led_test_sw.elf  |tee "led_test_sw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33149	   2176	  20667	  55992	   dab8	led_test_sw.elf
+'Finished building: led_test_sw.elf.size'
+' '
+
+19:50:53 Build Finished (took 1s.586ms)
+

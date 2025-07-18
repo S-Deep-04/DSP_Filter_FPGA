@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/Chart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Chart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/Chart1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Chart1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/FIR_system_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_system_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/SinglePortRAM_generic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SinglePortRAM_generic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/Subsystem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subsystem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/enable2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/main_module_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_module_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/my pc/desktop/matlab/exp8_io/hdl_prj/hdlsrc/new_7/new_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module new_7

@@ -1,0 +1,62 @@
+#include "xgpio.h"
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "sleep.h"
+
+// Match these to your Vivado block design
+#define GPIO_LED_ID     XPAR_GPIO_0_DEVICE_ID   // Controls GPIO_LED_0_LS (AL11)
+#define GPIO_SWITCH_ID  XPAR_GPIO_1_DEVICE_ID   // Reads GPIO_DIP_SW7 (B13)
+
+#define LED_CHANNEL     1
+#define SWITCH_CHANNEL  1
+
+#define LED_MASK        0x01    // LED connected to gpio_io_o[0]
+#define SWITCH_MASK     0x01    // Switch connected to gpio_io_i[0]
+
+int main() {
+    XGpio led_gpio, switch_gpio;
+    int status;
+    u32 switch_state;
+
+    xil_printf("Starting LED Blink and Switch Monitor...\r\n");
+
+    // Initialize LED GPIO
+    status = XGpio_Initialize(&led_gpio, GPIO_LED_ID);
+    if (status != XST_SUCCESS) {
+        xil_printf("LED GPIO Initialization failed.\r\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize Switch GPIO
+    status = XGpio_Initialize(&switch_gpio, GPIO_SWITCH_ID);
+    if (status != XST_SUCCESS) {
+        xil_printf("Switch GPIO Initialization failed.\r\n");
+        return XST_FAILURE;
+    }
+
+    // Set LED channel as output
+    XGpio_SetDataDirection(&led_gpio, LED_CHANNEL, ~LED_MASK); // 0 = output
+
+    // Set Switch channel as input
+    XGpio_SetDataDirection(&switch_gpio, SWITCH_CHANNEL, SWITCH_MASK); // 1 = input
+
+    while (1) {
+        // Blink LED ON
+        XGpio_DiscreteWrite(&led_gpio, LED_CHANNEL, LED_MASK);
+        sleep(1);
+
+        // Blink LED OFF
+        XGpio_DiscreteWrite(&led_gpio, LED_CHANNEL, 0x00);
+        sleep(1);
+
+        // Read switch
+        switch_state = XGpio_DiscreteRead(&switch_gpio, SWITCH_CHANNEL);
+
+        // Check if switch is ON (bit 0)
+        if (switch_state & SWITCH_MASK) {
+            xil_printf("Switch ON\r\n");
+        }
+    }
+
+    return 0;
+}

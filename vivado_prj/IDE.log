@@ -1,0 +1,653 @@
+14:38:32 DEBUG : Logs will be stored at 'C:/my pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/IDE.log'.
+14:38:43 ERROR : Workspace location C:\my pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj contains spaces. Please switch to a workspace without spaces in its path.
+14:38:44 INFO  : Registering command handlers for Vitis TCF services
+14:38:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\my pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\temp_xsdb_launch_script.tcl
+14:38:44 INFO  : Platform repository initialization has completed.
+14:38:47 ERROR : (XSDB Server)couldn't read file "C:\my": permission denied
+
+14:58:22 DEBUG : Logs will be stored at 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/IDE.log'.
+14:58:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\temp_xsdb_launch_script.tcl
+14:58:24 INFO  : Registering command handlers for Vitis TCF services
+14:58:24 INFO  : Platform repository initialization has completed.
+14:58:26 INFO  : XSCT server has started successfully.
+14:58:26 INFO  : plnx-install-location is set to ''
+14:58:29 INFO  : Successfully done setting XSCT server connection channel  
+14:58:29 INFO  : Successfully done query RDI_DATADIR 
+14:58:29 INFO  : Successfully done setting workspace for the tool. 
+15:06:13 INFO  : Result from executing command 'getProjects': test
+15:06:13 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:07:17 INFO  : Result from executing command 'getProjects': test
+15:07:17 INFO  : Result from executing command 'getPlatforms': test|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:11:13 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+16:48:32 DEBUG : Logs will be stored at 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/IDE.log'.
+16:48:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\temp_xsdb_launch_script.tcl
+16:48:35 INFO  : Registering command handlers for Vitis TCF services
+16:48:35 INFO  : Platform repository initialization has completed.
+16:48:36 INFO  : XSCT server has started successfully.
+16:48:36 INFO  : plnx-install-location is set to ''
+16:48:38 INFO  : Successfully done setting XSCT server connection channel  
+16:48:38 INFO  : Successfully done query RDI_DATADIR 
+16:48:38 INFO  : Successfully done setting workspace for the tool. 
+16:50:37 INFO  : Result from executing command 'getProjects': test;test_2
+16:50:37 INFO  : Result from executing command 'getPlatforms': test|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:51:00 INFO  : Result from executing command 'getProjects': test;test_2
+16:51:00 INFO  : Result from executing command 'getPlatforms': test_2|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/test_2.xpfm;test|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:51:38 INFO  : Result from executing command 'getProjects': test;test_2
+16:51:38 INFO  : Result from executing command 'getPlatforms': test_2|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/test_2.xpfm;test|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:06:34 INFO  : Checking for BSP changes to sync application flags for project 'test_2_proj'...
+17:08:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:09:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:09:15 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+19:23:16 INFO  : Result from executing command 'getProjects': led_new;test;test_2
+19:23:16 INFO  : Result from executing command 'getPlatforms': test_2|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test_2/export/test_2/test_2.xpfm;test|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/test/export/test/test.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:23:44 ERROR : An unexpected exception occurred in the module 'reading platform'
+19:23:50 ERROR : An unexpected exception occurred in the module 'reading platform'
+19:27:12 INFO  : Result from executing command 'getProjects': led_new
+19:27:12 INFO  : Result from executing command 'getPlatforms': led_new|C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/led_new.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:27:14 INFO  : Checking for BSP changes to sync application flags for project 'led_test_sw'...
+19:28:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:25 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:28:25 INFO  : 'jtag frequency' command is executed.
+19:28:25 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:28:25 INFO  : Context for 'APU' is selected.
+19:28:25 INFO  : System reset is completed.
+19:28:28 INFO  : 'after 3000' command is executed.
+19:28:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:28:40 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:28:40 INFO  : Context for 'APU' is selected.
+19:28:41 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:28:41 INFO  : 'configparams force-mem-access 1' command is executed.
+19:28:41 INFO  : Context for 'APU' is selected.
+19:28:41 INFO  : Boot mode is read from the target.
+19:28:41 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:28:41 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:28:42 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:28:42 INFO  : 'set bp_28_42_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:28:42 INFO  : 'con -block -timeout 60' command is executed.
+19:28:42 INFO  : 'bpremove $bp_28_42_fsbl_bp' command is executed.
+19:28:42 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:28:42 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:28:43 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:28:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:28:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_28_42_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_28_42_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:28:43 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:28:43 INFO  : 'con' command is executed.
+19:28:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:28:43 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:31:52 INFO  : Disconnected from the channel tcfchan#4.
+19:31:54 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+19:32:53 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+19:32:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:32:56 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:32:56 INFO  : 'jtag frequency' command is executed.
+19:32:56 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:32:56 INFO  : Context for 'APU' is selected.
+19:32:57 INFO  : System reset is completed.
+19:33:00 INFO  : 'after 3000' command is executed.
+19:33:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:33:11 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:33:11 INFO  : Context for 'APU' is selected.
+19:33:11 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:33:11 INFO  : 'configparams force-mem-access 1' command is executed.
+19:33:11 INFO  : Context for 'APU' is selected.
+19:33:11 INFO  : Boot mode is read from the target.
+19:33:11 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:33:11 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:33:12 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:33:12 INFO  : 'set bp_33_12_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:33:12 INFO  : 'con -block -timeout 60' command is executed.
+19:33:12 INFO  : 'bpremove $bp_33_12_fsbl_bp' command is executed.
+19:33:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:33:12 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:33:13 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:33:13 INFO  : 'configparams force-mem-access 0' command is executed.
+19:33:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_33_12_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_33_12_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:33:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:33:13 INFO  : 'con' command is executed.
+19:33:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:33:13 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:35:38 INFO  : Disconnected from the channel tcfchan#7.
+19:35:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:35:39 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:35:39 INFO  : 'jtag frequency' command is executed.
+19:35:39 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:35:39 INFO  : Context for 'APU' is selected.
+19:35:39 INFO  : System reset is completed.
+19:35:42 INFO  : 'after 3000' command is executed.
+19:35:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:35:54 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:35:54 INFO  : Context for 'APU' is selected.
+19:35:54 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:35:54 INFO  : 'configparams force-mem-access 1' command is executed.
+19:35:54 INFO  : Context for 'APU' is selected.
+19:35:54 INFO  : Boot mode is read from the target.
+19:35:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:35:54 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:35:55 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:35:55 INFO  : 'set bp_35_55_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:35:55 INFO  : 'con -block -timeout 60' command is executed.
+19:35:55 INFO  : 'bpremove $bp_35_55_fsbl_bp' command is executed.
+19:35:55 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:35:55 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:35:56 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:35:56 INFO  : 'configparams force-mem-access 0' command is executed.
+19:35:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_35_55_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_35_55_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:35:56 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:35:56 INFO  : 'con' command is executed.
+19:35:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:35:56 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:40:17 INFO  : Checking for BSP changes to sync application flags for project 'led_test_sw'...
+19:40:54 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+19:41:53 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+19:41:58 INFO  : Disconnected from the channel tcfchan#8.
+19:41:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:41:59 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:41:59 INFO  : 'jtag frequency' command is executed.
+19:41:59 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:41:59 INFO  : Context for 'APU' is selected.
+19:41:59 INFO  : System reset is completed.
+19:42:02 INFO  : 'after 3000' command is executed.
+19:42:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:42:14 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:42:14 INFO  : Context for 'APU' is selected.
+19:42:14 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:42:14 INFO  : 'configparams force-mem-access 1' command is executed.
+19:42:14 INFO  : Context for 'APU' is selected.
+19:42:14 INFO  : Boot mode is read from the target.
+19:42:14 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:42:14 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:42:15 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:42:15 INFO  : 'set bp_42_15_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:42:15 INFO  : 'con -block -timeout 60' command is executed.
+19:42:15 INFO  : 'bpremove $bp_42_15_fsbl_bp' command is executed.
+19:42:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:42:15 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:42:15 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:42:15 INFO  : 'configparams force-mem-access 0' command is executed.
+19:42:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_42_15_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_42_15_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:42:16 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:42:16 INFO  : 'con' command is executed.
+19:42:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:42:16 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:46:31 INFO  : Disconnected from the channel tcfchan#10.
+19:46:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:46:32 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:46:32 INFO  : 'jtag frequency' command is executed.
+19:46:32 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:46:32 INFO  : Context for 'APU' is selected.
+19:46:32 INFO  : System reset is completed.
+19:46:35 INFO  : 'after 3000' command is executed.
+19:46:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:46:47 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:46:47 INFO  : Context for 'APU' is selected.
+19:46:47 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:46:47 INFO  : 'configparams force-mem-access 1' command is executed.
+19:46:47 INFO  : Context for 'APU' is selected.
+19:46:47 INFO  : Boot mode is read from the target.
+19:46:47 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:46:47 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:46:48 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:46:48 INFO  : 'set bp_46_48_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:46:48 INFO  : 'con -block -timeout 60' command is executed.
+19:46:48 INFO  : 'bpremove $bp_46_48_fsbl_bp' command is executed.
+19:46:48 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:46:48 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:46:48 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:46:48 INFO  : 'configparams force-mem-access 0' command is executed.
+19:46:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_46_48_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_46_48_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:46:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:46:49 INFO  : 'con' command is executed.
+19:46:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:46:49 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:46:55 INFO  : Checking for BSP changes to sync application flags for project 'led_test_sw'...
+19:47:25 INFO  : Disconnected from the channel tcfchan#11.
+19:47:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:47:26 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:47:26 INFO  : 'jtag frequency' command is executed.
+19:47:26 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:47:26 INFO  : Context for 'APU' is selected.
+19:47:26 INFO  : System reset is completed.
+19:47:29 INFO  : 'after 3000' command is executed.
+19:47:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:47:41 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:47:41 INFO  : Context for 'APU' is selected.
+19:47:41 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:47:41 INFO  : 'configparams force-mem-access 1' command is executed.
+19:47:41 INFO  : Context for 'APU' is selected.
+19:47:41 INFO  : Boot mode is read from the target.
+19:47:41 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:47:41 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:47:42 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:47:42 INFO  : 'set bp_47_42_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:47:42 INFO  : 'con -block -timeout 60' command is executed.
+19:47:42 INFO  : 'bpremove $bp_47_42_fsbl_bp' command is executed.
+19:47:42 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:47:42 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:47:43 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:47:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:47:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_47_42_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_47_42_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:47:43 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:47:43 INFO  : 'con' command is executed.
+19:47:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:47:43 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:49:53 INFO  : Checking for BSP changes to sync application flags for project 'led_test_sw'...
+19:50:52 INFO  : Checking for BSP changes to sync application flags for project 'led_test_sw'...
+19:51:13 INFO  : Disconnected from the channel tcfchan#13.
+19:51:15 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+19:52:13 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+19:52:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:16 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:52:16 INFO  : 'jtag frequency' command is executed.
+19:52:16 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:52:16 INFO  : Context for 'APU' is selected.
+19:52:17 INFO  : System reset is completed.
+19:52:20 INFO  : 'after 3000' command is executed.
+19:52:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:52:31 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:52:31 INFO  : Context for 'APU' is selected.
+19:52:31 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:52:31 INFO  : 'configparams force-mem-access 1' command is executed.
+19:52:31 INFO  : Context for 'APU' is selected.
+19:52:31 INFO  : Boot mode is read from the target.
+19:52:31 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:52:32 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:52:32 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:52:32 INFO  : 'set bp_52_32_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:52:32 INFO  : 'con -block -timeout 60' command is executed.
+19:52:33 INFO  : 'bpremove $bp_52_32_fsbl_bp' command is executed.
+19:52:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:52:33 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:52:33 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:52:33 INFO  : 'configparams force-mem-access 0' command is executed.
+19:52:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_52_32_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_52_32_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:52:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:52:33 INFO  : 'con' command is executed.
+19:52:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:52:33 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+19:53:42 INFO  : Disconnected from the channel tcfchan#15.
+19:53:44 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+19:54:42 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+19:54:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:54:45 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT232H 58522' is selected.
+19:54:45 INFO  : 'jtag frequency' command is executed.
+19:54:45 INFO  : Sourcing of 'C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+19:54:45 INFO  : Context for 'APU' is selected.
+19:54:46 INFO  : System reset is completed.
+19:54:49 INFO  : 'after 3000' command is executed.
+19:54:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}' command is executed.
+19:55:00 INFO  : Device configured successfully with "C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit"
+19:55:01 INFO  : Context for 'APU' is selected.
+19:55:01 INFO  : Hardware design and registers information is loaded from 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa'.
+19:55:01 INFO  : 'configparams force-mem-access 1' command is executed.
+19:55:01 INFO  : Context for 'APU' is selected.
+19:55:01 INFO  : Boot mode is read from the target.
+19:55:01 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:55:01 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:55:02 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:55:02 INFO  : 'set bp_55_2_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+19:55:02 INFO  : 'con -block -timeout 60' command is executed.
+19:55:02 INFO  : 'bpremove $bp_55_2_fsbl_bp' command is executed.
+19:55:02 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:55:02 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+19:55:02 INFO  : The application 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf' is downloaded to processor 'psu_cortexa53_0'.
+19:55:02 INFO  : 'configparams force-mem-access 0' command is executed.
+19:55:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/Vitis/2023.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT232H 58522" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT232H-58522-14730093-0"}
+fpga -file C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/_ide/bitstream/test_board_leds18.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/hw/test_board_leds18.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_new/export/led_new/sw/led_new/boot/fsbl.elf
+set bp_55_2_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_55_2_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/led_test_sw/Debug/led_test_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:55:03 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+19:55:03 INFO  : 'con' command is executed.
+19:55:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+19:55:03 INFO  : Launch script is exported to file 'C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\led_test_sw_system\_ide\scripts\systemdebugger_led_test_sw_system_standalone.tcl'
+20:18:27 INFO  : Disconnected from the channel tcfchan#16.
+10:43:41 DEBUG : Logs will be stored at 'C:/my_pc/desktop/matlab/exp8_io/hdl_prj/vivado_prj/IDE.log'.
+10:43:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\my_pc\desktop\matlab\exp8_io\hdl_prj\vivado_prj\temp_xsdb_launch_script.tcl
+10:43:45 INFO  : Registering command handlers for Vitis TCF services
+10:43:46 INFO  : Platform repository initialization has completed.
+10:43:46 INFO  : XSCT server has started successfully.
+10:43:49 INFO  : plnx-install-location is set to ''
+10:43:49 INFO  : Successfully done setting XSCT server connection channel  
+10:43:49 INFO  : Successfully done query RDI_DATADIR 
+10:43:49 INFO  : Successfully done setting workspace for the tool. 

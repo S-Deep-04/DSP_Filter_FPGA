@@ -1,0 +1,10 @@
+vlib work
+vlog  Subsystem.v
+vlog  FIR_system_new.v
+vlog  Chart.v
+vlog  Chart1.v
+vlog  SinglePortRAM_generic.v
+vlog  main_module_new.v
+vlog  enable.v
+vlog  enable2.v
+vlog  new_7.v

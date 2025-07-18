@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="new_7_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="new_7" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="50.393608418 ms"></ZoomEndTime>
+      <Cursor1Time time="89.423477000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="118"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject fp_name="/new_7/clk_enable" type="logic">
+      <obj_property name="ElementShortName">clk_enable</obj_property>
+      <obj_property name="ObjectShortName">clk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/reset_x" type="logic">
+      <obj_property name="ElementShortName">reset_x</obj_property>
+      <obj_property name="ObjectShortName">reset_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/input_re" type="array">
+      <obj_property name="ElementShortName">input_re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_re[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/input_im" type="array">
+      <obj_property name="ElementShortName">input_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_im[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/out" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+      <obj_property name="label">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/we1" type="logic">
+      <obj_property name="ElementShortName">we1</obj_property>
+      <obj_property name="ObjectShortName">we1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/addr_1" type="array">
+      <obj_property name="ElementShortName">addr_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/u_Chart1/we2" type="logic">
+      <obj_property name="ElementShortName">we2</obj_property>
+      <obj_property name="ObjectShortName">we2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/u_Single_Port_RAM1/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/u_Single_Port_RAM1/din_re" type="array">
+      <obj_property name="ElementShortName">din_re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_re[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/u_Single_Port_RAM1/din_im" type="array">
+      <obj_property name="ElementShortName">din_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_im[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/open" type="logic">
+      <obj_property name="ElementShortName">open</obj_property>
+      <obj_property name="ObjectShortName">open</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr_op" type="array">
+      <obj_property name="ElementShortName">addr_op[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_op[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/output_re" type="array">
+      <obj_property name="ElementShortName">output_re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_re[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/output_im" type="array">
+      <obj_property name="ElementShortName">output_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_im[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/data_length_out1" type="array">
+      <obj_property name="ElementShortName">data_length_out1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_length_out1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/output2_re" type="array">
+      <obj_property name="ElementShortName">output2_re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output2_re[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/output2_im" type="array">
+      <obj_property name="ElementShortName">output2_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output2_im[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr_re" type="array">
+      <obj_property name="ElementShortName">addr_re[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_re[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr_im" type="array">
+      <obj_property name="ElementShortName">addr_im[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_im[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr_re_op" type="array">
+      <obj_property name="ElementShortName">addr_re_op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_re_op[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/addr_im_op" type="array">
+      <obj_property name="ElementShortName">addr_im_op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_im_op[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_step" type="array">
+      <obj_property name="ElementShortName">count_step[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_step[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_from" type="array">
+      <obj_property name="ElementShortName">count_from[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_from[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_reset" type="array">
+      <obj_property name="ElementShortName">count_reset[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reset[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/o1_re" type="array">
+      <obj_property name="ElementShortName">o1_re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o1_re[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/u_main_module_new/o1_im" type="array">
+      <obj_property name="ElementShortName">o1_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o1_im[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/need_to_wrap" type="logic">
+      <obj_property name="ElementShortName">need_to_wrap</obj_property>
+      <obj_property name="ObjectShortName">need_to_wrap</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_value" type="array">
+      <obj_property name="ElementShortName">count_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_1" type="array">
+      <obj_property name="ElementShortName">count_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_2" type="array">
+      <obj_property name="ElementShortName">count_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_step_1" type="array">
+      <obj_property name="ElementShortName">count_step_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_step_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_from_1" type="array">
+      <obj_property name="ElementShortName">count_from_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_from_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_reset_1" type="array">
+      <obj_property name="ElementShortName">count_reset_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reset_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_3" type="array">
+      <obj_property name="ElementShortName">count_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/need_to_wrap_1" type="logic">
+      <obj_property name="ElementShortName">need_to_wrap_1</obj_property>
+      <obj_property name="ObjectShortName">need_to_wrap_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_value_1" type="array">
+      <obj_property name="ElementShortName">count_value_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_value_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/Logical_Operator1_out1" type="logic">
+      <obj_property name="ElementShortName">Logical_Operator1_out1</obj_property>
+      <obj_property name="ObjectShortName">Logical_Operator1_out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_4" type="array">
+      <obj_property name="ElementShortName">count_4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/count_5" type="array">
+      <obj_property name="ElementShortName">count_5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/main_module_new_out3" type="array">
+      <obj_property name="ElementShortName">main_module_new_out3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">main_module_new_out3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/off_re" type="array">
+      <obj_property name="ElementShortName">off_re[31:0]</obj_property>
+      <obj_property name="ObjectShortName">off_re[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/off_im" type="array">
+      <obj_property name="ElementShortName">off_im[31:0]</obj_property>
+      <obj_property name="ObjectShortName">off_im[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/off_re_op" type="array">
+      <obj_property name="ElementShortName">off_re_op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">off_re_op[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/off_im_op" type="array">
+      <obj_property name="ElementShortName">off_im_op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">off_im_op[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/new_7/enable_1" type="logic">
+      <obj_property name="ElementShortName">enable_1</obj_property>
+      <obj_property name="ObjectShortName">enable_1</obj_property>
+   </wvobject>
+</wave_config>
