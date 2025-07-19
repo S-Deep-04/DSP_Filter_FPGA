@@ -1,0 +1,38 @@
+-------------------------------------------------------
+ VIVADO Stage: System Integration, IP Packaging, Synthesis
+-------------------------------------------------------
+
+WHAT WAS DONE:
+--------------
+The Verilog HDL files generated from Simulink were imported into Vivado and packaged as a custom IP block. 
+A complete block design was created using the Zynq UltraScale+ MPSoC Processing System. The FIR filter IP 
+was connected to AXI BRAM controllers and dual-port BRAMs for real and imaginary input/output data. 
+Additional logic such as AXI SmartConnect, GPIO, and vector logic blocks were used to manage control 
+and data flow. Synthesis and implementation were successfully completed with positive timing closure. 
+Finally, the hardware design was exported as an `.xsa` file for Vitis to enable PS-side software development.
+
+WHY IT WAS DONE:
+----------------
+This stage prepares the complete programmable logic (PL) system for deployment on the FPGA. The custom IP 
+is integrated with memory and control interfaces through Vivado’s block design environment. Exporting the 
+hardware model to Vitis is essential, as Vitis allows software running on the Zynq PS to:
+  - Generate test inputs and write them into BRAM
+  - Control the FIR filter IP execution
+  - Fetch the output from BRAM for analysis or display
+
+Without Vitis, there would be no way to dynamically interact with the filter IP from the software side 
+of the Zynq SoC.
+
+HOW IT WAS DONE:
+----------------
+- Imported HDL IP from Simulink-generated Verilog using IP Packager
+- Created a block design integrating:
+  • Zynq MPSoC Processing System
+  • AXI BRAM Controllers connected to input/output BRAM blocks
+  • AXI SmartConnect for AXI interface routing
+  • GPIO blocks for manual control and monitoring
+  • Vector Logic to extract necessary bits from control buses
+- Set address mapping using Address Editor
+- Configured the design with proper I/O constraints via XDC file
+- Performed synthesis, implementation, and generated `.bit` and `.xsa` files
+- Exported hardware design to Vitis for software interaction
