@@ -1,0 +1,64 @@
+---------------------------------------------------------
+ Simulink Design & HDL Workflow Advisor – Key Guidelines
+---------------------------------------------------------
+
+1. FIXED-POINT DATA FORMAT
+--------------------------
+- Input and output signals are represented in fixed-point format:
+  Format: fi(1, 8, 6)  →  Signed, 8-bit word length, 6-bit fraction length
+- Real and imaginary parts handled separately as fixed-point streams
+
+2. SYSTEM MODELING
+------------------
+- Entire system is designed for streaming input — 1 complex sample per clock
+- Cutset theorem used to add pipeline registers for optimal timing and throughput
+- Separate RAM blocks for real and imaginary input/output data
+- Dual-port RAM configured for simultaneous read/write
+
+3. CONTROL LOGIC
+----------------
+- FSM (Finite State Machine) used to control input/output phases and filter enable signal
+- Address counters control BRAM indexing for reading/writing
+- Input counter activates input write enable and selects input addresses
+- Output counter controls when outputs are written into BRAM
+- A separate FSM manages phase transitions (IDLE, WRITE_IN, RUN_FILTER, WRITE_OUT, etc.)
+
+4. SIMULATION STRATEGY
+----------------------
+- Testbench logic included in top-level design for system-level verification
+- Counter used to apply exactly 100 complex inputs and collect 111 outputs
+- Delay chains added to synchronize control flags and write enables
+- Output observed using vector scopes and waveforms for verification
+
+5. SIMULINK SETTINGS
+--------------------
+- Solver Configuration:
+  - Type: Fixed-step discrete
+  - Step size: 1
+- Reset Type (HDL Code Generation):
+  - Synchronous reset
+- Enable HDL support: Yes
+- Ensure compatibility with HDL Workflow Advisor by wrapping entire logic into one subsystem
+
+6. HDL WORKFLOW ADVISOR CONFIGURATION
+-------------------------------------
+- Target workflow: Generic ASIC/FPGA or Xilinx IP Core Generation
+- Language: Verilog
+- Testbench generation enabled
+- Output: Verilog files, Vivado project (.xpr), and packaged IP block
+- Interface: AXI4-Lite or AXI-Stream wrapper (depending on BRAM usage)
+
+7. TIMING & RESOURCE UTILIZATION TARGETS
+----------------------------------------
+- Fully pipelined architecture aimed for minimum clock period
+- Registers placed after each MAC unit to improve Fmax
+- Timing goal: Positive slack and closure without manual placement
+
+8. PACKAGING FOR VIVADO
+-----------------------
+- Output from HDL Workflow Advisor imported into Vivado as a packaged IP
+- Ports mapped to AXI4 interface and RAMs connected through BRAM controllers
+
+---------------------------------------------------------
+Note: These design practices ensure the generated HDL is synthesizable,
+timing-optimized, and integrable into Vivado for FPGA implementation.
