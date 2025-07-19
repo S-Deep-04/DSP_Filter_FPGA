@@ -1,0 +1,23 @@
+------------------------------------------------------------
+ SIMULINK Stage: FIR System Design, Simulation, and HDL Setup
+------------------------------------------------------------
+
+WHAT WAS DONE:
+--------------
+The core design of the FIR filter system was developed in Simulink using a direct-form, pipelined structure capable of processing complex fixed-point input data. 
+Functional testing of the entire filter system was performed through simulation using generated input vectors. HDL Workflow Advisor was then used to generate 
+synthesizable Verilog code and export a Vivado-compatible project structure.
+
+WHY IT WAS DONE:
+----------------
+This Simulink model serves as the basis for actual hardware implementation. Directly generating HDL code and Vivado project files from a tested Simulink design allows
+for a streamlined, error-minimized workflow. It bridges high-level design and low-level hardware deployment efficiently.
+
+HOW IT WAS DONE:
+----------------
+- FIR core implemented using multiply-accumulate blocks and pipelined adders
+- Control logic built using FSMs to sequence memory read/write operations
+- Address generation handled by parameterised counters
+- Dual-port RAM blocks used for input/output buffering
+- Simulation driven by a testbench with control flags and counters
+- HDL Workflow Advisor used to generate Verilog and Vivado project files
