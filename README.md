@@ -51,10 +51,10 @@ To complete the full FPGA deployment:
 
 Each major folder includes an `ABOUT.txt` with details:
 
-- `matlab_simulink/` → Filter design, system modeling, and HDL generation
-- `vivado/` → Block design, IP integration, bitstream generation
-- `report/` → Final project report (PDF)
-- `images/` → Screenshots of architecture and simulation
+- `MATLAB/` → Filter modelling
+- `Simulink/` → Filter design, system modelling, and HDL generation
+- `Vivado/` → Block design, IP integration, bitstream generation
+- `Report/` → Final project report (PDF)
 - `FOLDER_GUIDE.txt` → Helps navigate key files
 
 ---
@@ -72,6 +72,8 @@ Each major folder includes an `ABOUT.txt` with details:
 
 ## 🙏 Acknowledgements
 
-- **Dr. Amit Kumar Dutta**, GS Sanyal School of Telecommunication, IIT Kharagpur
+- **Dr. Amit Kumar Dutta**, Faculty mentor, GS Sanyal School of Telecommunication, IIT Kharagpur
+- **Mr. Kunal Thakur & Mr. Ashutosh Das**, Senior MS Research Scholars, GS Sanyal School of Telecommunication, IIT Kharagpur
 - **IIT Kharagpur**, for the research internship opportunity and guidance
+- **Manas Mahato & Subhagata Kundu**, Project Collaborators  
 - **MathWorks & AMD/Xilinx**, for tool support and documentation
