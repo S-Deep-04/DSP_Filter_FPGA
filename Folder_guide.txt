@@ -1,0 +1,26 @@
+-------------------------------------------------
+ Folder Navigation Guide – Key File Locations
+-------------------------------------------------
+
+This file helps locate important artifacts across the project folders.
+
+1. MATLAB Code
+---------------------
+📁 Path: matlab/Filter_design.m
+
+2. Simulink Design file
+---------------------
+📁 Path: Simulink/design.slx
+
+3. HDL Generated Code
+---------------------
+📁 Path: Vivado/hdlsrc/
+📄 Description: Contains the Verilog HDL files generated from Simulink using HDL Workflow Advisor.
+
+4. Vivado Block Design and Hardware Export
+------------------------------------------
+📁 Path: vivado/vivado_prj/
+📄 Important Files:
+- new_7_vivado.xpr → Vivado project file 
+- design_1_wrapper.xsa → Hardware specification file exported for Vitis
+
