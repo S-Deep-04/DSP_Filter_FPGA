@@ -1,0 +1,24 @@
+-----------------------------------------------------------
+ MATLAB Stage: Filter Design, Coefficient Extraction, Testing
+-----------------------------------------------------------
+
+WHAT WAS DONE:
+--------------
+A high-pass elliptical IIR filter was designed in MATLAB based on the specified constraints: sampling frequency of 200 kHz, cutoff frequency of 50 kHz, passband 
+ripple of 3 dB, and stopband attenuation of 40 dB. The impulse response of this IIR filter, which is theoretically infinite in length, was truncated to 12 taps to 
+obtain a stable FIR filter. The FIR filter's frequency response was then compared with that of the original IIR filter. Complex fixed-point input sequences 
+(fi(1,8,6)) were generated in MATLAB and applied to the FIR filter to analyse the output response.
+
+WHY IT WAS DONE:
+----------------
+IIR filters, while efficient in theory, pose challenges for hardware implementation due to their infinite impulse response and potential instability. Truncating the 
+impulse response yields a finite-length FIR filter that maintains essential frequency characteristics and is well-suited for hardware implementation. Additionally, 
+generating and testing input signals in MATLAB ensures functional correctness of the filter design before moving to hardware platforms.
+
+HOW IT WAS DONE:
+----------------
+- Designed a 2nd-order high-pass elliptical IIR filter using MATLAB functions.
+- Truncated the impulse response to 12 coefficients to form an FIR approximation.
+- Plotted and compared the frequency responses of IIR and FIR filters.
+- Generated complex fixed-point test input signals using `fi(1,8,6)`.
+- Applied the test input to the FIR filter and plotted the output response.
